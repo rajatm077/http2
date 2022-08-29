@@ -1,0 +1,20 @@
+{
+  "name": "test-h2",
+  "version": "1.0.0",
+  "description": "http1 example",
+  "engines": {
+    "node": "14.19.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
