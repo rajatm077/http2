@@ -3,6 +3,9 @@ require('dotenv').config();
 const app = express();
 const fs = require('fs');
 
+app.get('/', (req, res) => {
+    res.send('welcome to http1');
+});
 
 app.get('/:filename', (req, res) => {
     const { filename } = req.params;
