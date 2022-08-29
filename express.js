@@ -3,6 +3,7 @@ const spdy = require('spdy');
 const fs = require('fs');
 
 const app = express();
+app.use(express.static('public'));
 
 const options = {
     key: fs.readFileSync('./certs/server.key'),
