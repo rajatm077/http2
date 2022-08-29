@@ -1,0 +1,35 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse Files #
+.classpath
+.project
+.settings/
+.metadata/
+
+# Google App Engine #
+war/WEB-INF/appengine-generated
+war/WEB-INF/classes
+target/
+*.log
+
+static/
+node_modules/
+nbproject/
+dump.rdb
+.vscode/
+.idea/
+
+# typescript build
+dist/
+*.js.map
